@@ -1,1 +1,7 @@
-# node_typescript_console_template
+# A TypeScript console application template
+
+A TypeScript [Node.js](https://nodejs.org) console application template with opinionated [Biome](https://biomejs.dev) linting.
+
+Install [Biome VS Code](https://marketplace.visualstudio.com/items?itemName=biomejs.biome) extension or [Biome IntelliJ Plugin](https://plugins.jetbrains.com/plugin/22761-biome) depending on the IDE platform to enable linting and fixing the code formatting.
+
+The code should be able to [debugged](.vscode/launch.json) in the IDE. Use <kbd>⌘/Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> to run the background continuous build [task](.vscode/tasks.json).
