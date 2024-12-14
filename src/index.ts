@@ -6,8 +6,6 @@ export const greetWorld = () => {
 };
 
 console.log(greetWorld());
-console.log(greetWorld());
-console.log(greetWorld());
 
 // Reading from stdin
 const rl = readline.createInterface({
