@@ -9,8 +9,7 @@
         "build": "tsc",
         "start": "node --loader ts-node/esm ./src/index.ts",
         "lint": "biome lint && biome format && biome check",
-        "lint-fix": "biome lint --write && biome format --write && biome check --write",
-        "run-my-script": "ts-node ./src/index.ts"
+        "lint-fix": "biome lint --write && biome format --write && biome check --write"
     },
     "keywords": [],
     "author": "",
