@@ -8,5 +8,18 @@ The code should be able to [debugged](.vscode/launch.json) in the IDE. Use <kbd>
 
 Debug The code by pressing <kbd>F5</kbd>. Remember to add break points
 
+## Importing local code files
+You need to use `js` file extension to modularize your comsole application into separate files.
+
+Correct ✔️:
+```typescript
+import { foo } from "./bar.js";
+```
+
+Fail ❌:
+```typescript
+import { foo } from "./bar";
+```
+
 ## Notes
 The VS Code currently doesn't seem to be able to attach the NodeJS Debugger to the NodeJS v.23.x.
