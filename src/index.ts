@@ -1,9 +1,6 @@
 import readline from "node:readline";
 import { setTimeout } from "node:timers/promises";
-
-export const greetWorld = () => {
-    return "Hello world!";
-};
+import { greetWorld } from "./functions.js";
 
 console.log(greetWorld());
 
