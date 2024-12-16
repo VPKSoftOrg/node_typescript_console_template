@@ -1,4 +1,4 @@
-import { greetWorld } from "../src/index";
+import { greetWorld } from "../src/functions";
 
 describe("greetWorld", () => {
     it("should return 'Hello world!'!", () => {
